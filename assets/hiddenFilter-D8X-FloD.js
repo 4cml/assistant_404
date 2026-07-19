@@ -1,0 +1,1 @@
+function o(i){return!(i!=null&&i.hidden)}function m(i){return i!=null&&i.sections?{...i,sections:i.sections.filter(f=>o(f)).map(f=>({...f,items:(f.items||[]).filter(n=>o(n))}))}:i}export{m as f,o as i};
